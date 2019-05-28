@@ -1,0 +1,34 @@
+.boringDiv {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 4rem;
+}
+
+.subheadings{
+    font-size: 2rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.skillsList {
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .boringDiv {
+        display: block;
+    }
+
+    .subheadings {
+        font-size: 1.6rem;
+    }
+
+    .skillsList{
+        font-size: 1.2rem;
+    }
+}

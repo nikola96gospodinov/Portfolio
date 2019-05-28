@@ -1,0 +1,81 @@
+.projectsHome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
+
+.pro {
+    color: #ccc;
+    margin: 4rem 0;
+    font-size: 4rem;
+}
+
+.ject {
+    color: #333;
+    margin: 4rem 0;
+    font-size: 4rem; 
+}
+
+.buttonLeft {
+        color: #ccc;
+        border: 2px solid #ccc;
+        padding: 1rem .25rem 1rem 2rem;
+        border-right: none;
+        font-size: 1.6rem;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 4rem;
+}
+
+.buttonLeft:hover {
+    background: #ccc;
+    color: #333;
+    border: 2px solid #333;
+    border-right: none;
+}
+
+.buttonRight {
+    color: #333;
+    border: 2px solid #333;
+    padding: 1rem 2rem 1rem .25rem;
+    border-left: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 4rem;
+}
+
+.buttonRight:hover {
+    background: #333;
+    color: #ccc;
+    border: 2px solid #ccc;
+    border-left: none;
+}
+
+@media (max-width: 1200px){
+    .projectsHome {
+        height: auto;
+    }
+}
+
+@media (max-width: 600px){
+    .projectsHome {
+        height: auto;
+    }
+
+    .pro {
+        font-size: 3.2rem;
+    }
+
+    .ject {
+        font-size: 3.2rem;
+    }
+
+    .buttonLeft {
+        font-size: 1.4rem;
+    }
+
+    .buttonRight {
+        font-size: 1.4rem;
+    }
+}

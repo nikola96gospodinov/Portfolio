@@ -1,0 +1,28 @@
+.interestsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.aboutButtons {
+    font-size: 1.6rem;
+    border: 1.5px solid #333;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem; 
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.aboutButtons:hover {
+    color: #ccc;
+    background: #333;
+}
+
+@media (max-width: 600px){
+    .interestsGrid{
+        display: inline-block;
+    }
+}

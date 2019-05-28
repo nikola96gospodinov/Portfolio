@@ -1,0 +1,155 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
+
+.mainContainer .boring {
+    width: 75%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.mainContainer .unboring {
+    width: 75%;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: right;
+}
+
+.mainContainer .boring h1 {
+    color: #333;
+    margin: 2rem 0;
+    font-size: 2.4rem;
+}
+
+.mainContainer .unboring h1 {
+    color: #ccc;
+    margin: 2rem 0;
+    font-size: 2.4rem;
+}
+
+.mainContainer .boring h2 {
+    color: #333;
+    margin-Bottom: 2rem;
+    padding-right: 3.8rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.mainContainer .unboring h2 {
+    color: #ccc;
+    margin-Bottom: 2rem;
+    padding-left: 3.8rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.boringSkillsHome {
+    color: #333;
+    border: 2px solid #333;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.unboringSkillsHome {
+    color: #ccc;
+    border: 2px solid #ccc;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.unboringSkillsHome:hover {
+    background: #ccc;
+    color: #333;
+}
+
+.boringSkillsHome:hover {
+    background: #333;
+    color: #ccc;
+}
+
+@media (max-width: 1200px) {
+    .mainContainer {
+        height: auto;
+    }
+
+    .mainContainer .boring h1 {
+        font-size: 1.7rem;
+    }
+
+    .mainContainer .unboring h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .mainContainer {
+        height: auto;
+    }
+
+    .mainContainer .boring h1{
+        margin: 2rem 2rem 2rem 0;
+        font-size: 1.8rem;
+    }
+
+    .mainContainer .unboring h1 {
+        margin: 2rem 0 2rem 2rem;
+        font-size: 1.8rem;
+    }
+
+    .mainContainer .boring h2{
+        font-size: 1.3rem;
+    }
+
+    .mainContainer .unboring h2{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainContainer {
+        display: block;
+        height: auto;
+    }
+
+    .mainContainer .boring {
+        margin: auto;
+    }
+
+    .mainContainer .unboring {
+        margin: auto;
+    }
+
+    .mainContainer .boring h1 {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+
+    .mainContainer .unboring h1 {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+
+    .mainContainer .boring h2 {
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    .mainContainer .unboring h2 {
+        padding: 0;
+        font-size: 1.2rem;
+    }
+}

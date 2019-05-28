@@ -1,0 +1,67 @@
+.skillsPageDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 75vh;
+    margin-top: -10vh;
+}
+
+.skillsPageDiv .left {
+    width: 75%;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: left;
+}
+
+.skillsPageDiv .right {
+    width: 75%;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: right;
+}
+
+.boringSkillsSkills {
+    color: #ccc;
+    border: 2px solid #ccc;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.boringSkillsSkills:hover {
+    color: #333;
+    background: #ccc;
+}
+
+.unboringSkillsSkills {
+    color: #333;
+    border: 2px solid #333;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.unboringSkillsSkills:hover {
+    color: #ccc;
+    background: #333;
+}
+
+@media (max-width: 600px) {
+    .skillsPageDiv {
+        display: block;
+        height: auto;
+    }
+
+    .skillsPageDiv .left {
+        margin: -8rem auto -12rem auto;
+    }
+
+    .skillsPageDiv .right {
+        margin: auto;
+    }
+}
