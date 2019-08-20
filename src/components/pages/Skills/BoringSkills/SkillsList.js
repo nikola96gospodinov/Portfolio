@@ -17,19 +17,18 @@ const SkillsList = () => {
         <div>
           <h1 className = "subheadings">I.T. Skills</h1>
           <ul>
+              <li className = "skillsList">Fundamental knowledge of <b>React.js</b> (including <b>Redux</b>)</li>
+              <li className = "skillsList">Intermediate <b>JavaScript (ES6)</b></li>
+              <li className = "skillsList"><b>CSS3 (SASS (SCSS), REM, Flexbox, CSS Grid)</b> (experience with <b>Bootstrap</b>)</li>
+              <li className = "skillsList">Good working knowledge with <b>HTML5</b></li>
               <li className = "skillsList">Following basic <b>UX</b> principles (most notably by expert on UX design <b>Steve Krug</b>)</li>
               <li className = "skillsList">Good knowledge on the fundamental design principles (helpful with UI design)</li>
-              <li className = "skillsList">Good working knowledge with <b>HTML5</b></li>
-              <li className = "skillsList"><b>CSS3 (SASS (SCSS), REM, Flexbox, CSS Grid)</b> (experience with <b>Bootstrap</b>)</li>
-              <li className = "skillsList">Intermediate <b>JavaScript (ES6)</b> (including basic <b>jQuery</b>)</li>
-              <li className = "skillsList">Fundamental knowledge of <b>React.js</b> (including <b>Redux</b>)</li>
-              <li className = "skillsList">In the process of learning <b>Node.js</b></li>
+              <li className = "skillsList">Basic <b>Git</b> knowledge (uploading apps to <b>GitHub Pages</b> using Git)</li>
+              <li className = "skillsList">Basic <b>Node.js</b> knowledge (including <b>Express</b>)</li>
+              <li className = "skillsList">Good understanding of <b>MongoDB</b> (<b>Mongoose</b>)</li>
               <li className = "skillsList">Intermediate <b>Adobe Photoshop CS6/CC</b> skills</li>
               <li className = "skillsList"><b>Wordpress</b> (website creation and website and portal monitoring) (experience with various WordPress plugins including “<b>Elementor</b>”)</li>
-              <li className = "skillsList"><b>Java</b> coding</li>
-              <li className = "skillsList">Basic <b>PHP</b>, <b>Pearl</b> and <b>MySQL</b></li>
-              <li className = "skillsList">Computer Literate <b>(MS Word, MS Excel, MS PowerPoint, Prezi, XAMPP)</b></li>
-              <li className = "skillsList">Setting up websites from scratch</li>
+              <li className = "skillsList">Limited <b>Java</b>, <b>PHP</b>, <b>Pearl</b> and <b>MySQL</b></li>
           </ul>
           <h1 className = "subheadings">Online Marketing Skills</h1>
           <ul>
