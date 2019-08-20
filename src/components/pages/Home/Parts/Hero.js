@@ -28,7 +28,7 @@ const Hero = () => {
             >
                 <h1
                     className = "heroHomeMain"
-                >Nikola Gospodinov</h1>
+                >Nikki Flinstone</h1>
                 <h3
                     className = "heroHomeSecondary"
                 >Front-End Developer</h3>
