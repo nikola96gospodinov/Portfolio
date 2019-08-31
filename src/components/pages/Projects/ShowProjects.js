@@ -3,6 +3,7 @@ import React from 'react'
 import THC from '../../../images/THC.jpg'
 import Portfolio from '../../../images/Portfolio.jpg'
 import Notes from '../../../images/noteapp.jpg'
+import Weather from '../../../images/weather-app.jpg'
 
 import './ShowProjects.css'
 
@@ -51,6 +52,20 @@ const ShowProjects = () => {
             gitHubLink: "https://github.com/nikola96gospodinov/NotesApp",
             webpage: true,
             webPageLink: "https://nikola96gospodinov.github.io/NotesApp/"
+        },
+        {
+            pic: Weather,
+            title: "Weather App",
+            description: "An easy to use web app that gets accurate weather for a location of your choice using DarkSky API and Mapbox API.",
+            languages: [
+                "HBS",
+                "CSS",
+                "Node.js"
+            ],
+            gitHub: true,
+            gitHubLink: 'https://github.com/nikola96gospodinov/WeatherApp',
+            webpage: true,
+            webPageLink: 'https://gospodinov-weather-app.herokuapp.com/'
         }
     ]
 
