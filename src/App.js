@@ -12,8 +12,16 @@ import './App.css';
 library.add(fab)
 
 class App extends Component {
+  state = {
+    isLoading: true
+  }
+
+  componentDidMount(){
+    this.setState({isLoading: false})
+  }
+
   render() {
-    return (
+    return this.state.isLoading ? (<div> Loading... </div>) : (
       <BrowserRouter>
         <Routes/>
       </BrowserRouter>
