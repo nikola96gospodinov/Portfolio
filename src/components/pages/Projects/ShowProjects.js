@@ -4,6 +4,7 @@ import THC from '../../../images/THC.jpg'
 import Portfolio from '../../../images/Portfolio.jpg'
 import Notes from '../../../images/noteapp.jpg'
 import Weather from '../../../images/weather-app.jpg'
+import Photography from '../../../images/p-ch-photography.jpg'
 
 import './ShowProjects.css'
 
@@ -66,6 +67,19 @@ const ShowProjects = () => {
             gitHubLink: 'https://github.com/nikola96gospodinov/WeatherApp',
             webpage: true,
             webPageLink: 'https://gospodinov-weather-app.herokuapp.com/'
+        },
+        {
+            pic: Photography,
+            title: "P.CH Photography",
+            description: "Photography website inspired by Squarespace's theme Wells built entirely with React.",
+            languages: [
+                'React',
+                'CSS'
+            ],
+            gitHub: true,
+            gitHubLink: 'https://github.com/nikola96gospodinov/pChPhotography',
+            webpage: true,
+            webPageLink: 'https://pch-photography.herokuapp.com/'
         }
     ]
 
