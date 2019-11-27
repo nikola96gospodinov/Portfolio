@@ -43,7 +43,7 @@ const HeroAbout = () => {
                 >Nikola Gospodinov</h1>
                 <h3
                     className = "headingSecondaryAboutPage"
-                >Front End Developer</h3>
+                >Full Stack Developer</h3>
                 <div
                 style = {{
                     display: 'flex',

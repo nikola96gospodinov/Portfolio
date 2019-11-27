@@ -32,13 +32,13 @@ const Social = () => {
                         href = {item.link}
                         style = {{
                             color: '#eee',
-                            fontSize: '1.2rem'
+                            fontSize: '1.3rem'
                         }}
                     >
                         <FontAwesomeIcon 
                             icon = {item.icon}
                             style = {{
-                                margin: '0 .8rem'
+                                margin: '0 1rem'
                             }}
                         />
                         <span className = "navLinks">{item.text}</span>

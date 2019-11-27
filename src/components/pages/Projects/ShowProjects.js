@@ -74,7 +74,9 @@ const ShowProjects = () => {
             description: "Photography website inspired by Squarespace's theme Wells built entirely with React.",
             languages: [
                 'React',
-                'CSS'
+                'CSS',
+                'Node.js',
+                'Express'
             ],
             gitHub: true,
             gitHubLink: 'https://github.com/nikola96gospodinov/pChPhotography',

@@ -7,7 +7,7 @@
 
 .heroHomeSecondary {
     color: #dccc;
-    font-size: 2.3rem;
+    font-size: 2.25rem;
     letter-spacing: 5.6px;
 }
 
@@ -26,6 +26,22 @@
     .heroHomeMain {
         font-size: 2rem;
         padding-top: 24rem;
+    }
+
+    .heroHomeSecondary {
+        font-size: 1.4rem;
+        letter-spacing: 2.5px;
+    }
+
+    .heroHomeButton {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 350px){
+    .heroHomeMain {
+        font-size: 2rem;
+        padding-top: 21rem;
     }
 
     .heroHomeSecondary {

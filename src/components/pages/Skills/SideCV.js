@@ -18,7 +18,7 @@ const SideCV = () => {
             }}
             >Need a copy of my CV?</h2>
         <a 
-            href = "https://www.dropbox.com/s/3vkphgfrrae6n48/CV%20-%20Nikola%20Gospodinov.pdf?dl=0"
+            href = "https://www.dropbox.com/s/nt7mfd17f2o5j60/CV%20Nikola%20Gospodinov.pdf?dl=0"
             className = "cvButton"
         ><FontAwesome
             name = 'file-download'

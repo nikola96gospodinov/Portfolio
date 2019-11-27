@@ -31,7 +31,7 @@ const Hero = () => {
                 >Nikola Gospodinov</h1>
                 <h3
                     className = "heroHomeSecondary"
-                >Front-End Developer</h3>
+                >Full Stack Developer</h3>
             </div>
             <a
                 className = "heroHomeButton"
