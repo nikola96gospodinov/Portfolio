@@ -31,7 +31,7 @@ const SideNavigation = (props) => {
                             background: '#333',
                             height: '100%',
                             zIndex: '1002',
-                            '@media (max-width: 400px)': {
+                            '@media (max-width: 600px)': {
                                 width: '60%'
                             }
                         }}
@@ -51,7 +51,7 @@ const SideNavigation = (props) => {
                                     marginLeft: '1rem',
                                     height: '3rem',
                                     marginBottom: '.5rem',
-                                    '@media (max-width: 400px)': {
+                                    '@media (max-width: 600px)': {
                                         marginBottom: '0'
                                     }
                                 }}
@@ -72,7 +72,7 @@ const SideNavigation = (props) => {
                             alignItems: 'center',
                             justifyContent: 'center',
                             cursor: 'pointer',
-                            '@media (max-width: 400px)': {
+                            '@media (max-width: 600px)': {
                                 marginLeft: '60%',
                                 width: '10%',
                                 background: '#222'

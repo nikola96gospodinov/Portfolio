@@ -24,10 +24,10 @@
     margin-left: .75rem;
     margin-bottom: .75rem;
     margin-right: .75rem;
-    padding: .5rem;
+    padding: .5rem .75rem;
     border: 1px solid #222;
     color: #222;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border-radius: 15px;
 }
 
@@ -59,10 +59,20 @@
         display: inline-block;
         margin-bottom: .5rem;
     }
+
+    .ProjectsButtons {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 400px){
     .description {
         height: 15vh;
+    }
+
+    .ProjectsButtons {
+        font-size: .8rem;
+        font-weight: bolder;
+        border: 1.25px solid #222;
     }
 }

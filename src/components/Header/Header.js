@@ -54,7 +54,7 @@ class Header extends Component {
                             <img alt = "Nikola Gospodinov" src = {logoMain}
                                 style = {{
                                     width: '9rem',
-                                    '@media (max-width: 400px)': {
+                                    '@media (max-width: 600px)': {
                                         width: '8rem'
                                     }
                                 }}
@@ -63,7 +63,7 @@ class Header extends Component {
                         <div 
                             className = "bars"
                             style = {{
-                                '@media (max-width: 400px)': {
+                                '@media (max-width: 600px)': {
                                     marginTop: '-.5rem',
                                     marginRight: '1rem'
                                 }
